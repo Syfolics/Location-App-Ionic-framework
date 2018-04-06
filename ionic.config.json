@@ -1,0 +1,8 @@
+{
+  "name": "RDemo",
+  "app_id": "751ef4a0",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

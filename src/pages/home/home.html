@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="title" ion-text color="secondary">Destination</ion-title>
+ 
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+     <ion-label floating>Where To?</ion-label>
+        <ion-input  type="text" [(ngModel)]="Destination"></ion-input>
+    </ion-item>
+</ion-list>
+<button ion-button color="secondary" block (click)="showToastWithCloseButton()" ion-button full (click)="calculateAndDisplayRoute()">GO</button>
+
+
+<div id="map"></div>
+</ion-content>
